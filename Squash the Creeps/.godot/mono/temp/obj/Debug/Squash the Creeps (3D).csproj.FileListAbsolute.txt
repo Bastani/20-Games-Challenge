@@ -1,0 +1,17 @@
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/bin/Debug/Squash the Creeps (3D).deps.json
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/bin/Debug/Squash the Creeps (3D).runtimeconfig.json
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/bin/Debug/Squash the Creeps (3D).dll
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/bin/Debug/Squash the Creeps (3D).pdb
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/Squash the Creeps (3D).csproj.AssemblyReference.cache
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/Squash the Creeps (3D).GeneratedMSBuildEditorConfig.editorconfig
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/Squash the Creeps (3D).AssemblyInfoInputs.cache
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/Squash the Creeps (3D).AssemblyInfo.cs
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/Squash the Creeps (3D).csproj.CoreCompileInputs.cache
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/Squash the Creeps (3D).csproj.CopyComplete
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/Squash the Creeps (3D).dll
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/refint/Squash the Creeps (3D).dll
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/Squash the Creeps (3D).pdb
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/Squash the Creeps (3D).genruntimeconfig.cache
+/Users/bastani/RiderProjects/Squash the Creeps/.godot/mono/temp/obj/Debug/ref/Squash the Creeps (3D).dll

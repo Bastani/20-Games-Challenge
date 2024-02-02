@@ -1,0 +1,7 @@
+res://Player.tscn
+res://Main.tscn
+res://Mob.tscn
+res://Main.cs
+res://Mob.cs
+res://Player.cs
+res://ScoreLabel.cs
