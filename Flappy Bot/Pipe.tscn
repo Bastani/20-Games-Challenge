@@ -1,0 +1,69 @@
+[gd_scene load_steps=5 format=3 uid="uid://crgu5f4ur4tbu"]
+
+[ext_resource type="Script" path="res://Pipe.gd" id="1_l3aim"]
+[ext_resource type="Texture2D" uid="uid://bmcjap3jtwyxq" path="res://Textures/Pipe.png" id="1_qaarp"]
+[ext_resource type="Texture2D" uid="uid://dbido6eu0y6ea" path="res://Textures/PipeTop.png" id="2_nvgp1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jdyf3"]
+size = Vector2(18, 90)
+
+[node name="Pipe" type="Node2D"]
+script = ExtResource("1_l3aim")
+
+[node name="PipeTop" type="Node2D" parent="."]
+position = Vector2(0, -30)
+rotation = -3.14159
+
+[node name="Head" type="Sprite2D" parent="PipeTop"]
+texture = ExtResource("2_nvgp1")
+
+[node name="BodyTop" type="Sprite2D" parent="PipeTop"]
+position = Vector2(7.86805e-07, 18)
+texture = ExtResource("1_qaarp")
+
+[node name="BodyMiddle" type="Sprite2D" parent="PipeTop"]
+position = Vector2(7.86804e-07, 36)
+texture = ExtResource("1_qaarp")
+
+[node name="BodyMiddle2" type="Sprite2D" parent="PipeTop"]
+position = Vector2(-7.86805e-06, 54)
+texture = ExtResource("1_qaarp")
+
+[node name="BodyBottom" type="Sprite2D" parent="PipeTop"]
+position = Vector2(3.93402e-06, 72)
+texture = ExtResource("1_qaarp")
+
+[node name="PipeBottom" type="Node2D" parent="."]
+position = Vector2(0, 30)
+
+[node name="Head" type="Sprite2D" parent="PipeBottom"]
+texture = ExtResource("2_nvgp1")
+
+[node name="BodyTop" type="Sprite2D" parent="PipeBottom"]
+position = Vector2(7.86805e-07, 18)
+texture = ExtResource("1_qaarp")
+
+[node name="BodyMiddle" type="Sprite2D" parent="PipeBottom"]
+position = Vector2(7.86804e-07, 36)
+texture = ExtResource("1_qaarp")
+
+[node name="BodyMiddle2" type="Sprite2D" parent="PipeBottom"]
+position = Vector2(-7.86805e-06, 54)
+texture = ExtResource("1_qaarp")
+
+[node name="BodyBottom" type="Sprite2D" parent="PipeBottom"]
+position = Vector2(3.93402e-06, 72)
+texture = ExtResource("1_qaarp")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2DTop" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(2.28863e-06, -66)
+shape = SubResource("RectangleShape2D_jdyf3")
+
+[node name="CollisionShape2DBottom" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(6.65226e-06, 66)
+rotation = -3.14159
+shape = SubResource("RectangleShape2D_jdyf3")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
