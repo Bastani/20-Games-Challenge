@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6c5fc50-678b-4313-9df1-f7d3a9387718" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Physika/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Physika/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Physika/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Physika/.idea/libraries/GdSdk_4_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Physika/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Physika/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Physika/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.tscn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Pixel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Physika.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Physika.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon.svg.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Squash the Creeps/Squash the Creeps (3D).csproj.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Physika/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Physika/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Main.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +19,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5747859fcbfee5826967d104493a4582590f3/Pixel_ScriptMethods.generated.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/houma/source/repos/20-Games-Challenge/Physika/Main.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;contexts&quot;: [
@@ -122,8 +107,18 @@
       <updated>1693245063207</updated>
       <workItem from="1707704628382" duration="880000" />
       <workItem from="1707705542910" duration="8960000" />
-      <workItem from="1707714766173" duration="2363000" />
+      <workItem from="1707714766173" duration="2881000" />
+      <workItem from="1707785814219" duration="847000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit - Physika">
+      <option name="closed" value="true" />
+      <created>1707717626509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707717626509</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,24 +127,7 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Main.cs</url>
-          <line>42</line>
-          <properties documentPath="C:\Users\houma\source\repos\20-Games-Challenge\Physika\Main.cs" initialLine="41" containingFunctionPresentation="Method '_Draw'">
-            <startOffsets>
-              <option value="946" />
-            </startOffsets>
-            <endOffsets>
-              <option value="947" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="First Commit - Physika" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit - Physika" />
   </component>
 </project>
