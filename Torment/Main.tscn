@@ -1,6 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://kthnih08uccu"]
+[gd_scene load_steps=4 format=3 uid="uid://kthnih08uccu"]
+
+[ext_resource type="PackedScene" uid="uid://bjmcuo450usgb" path="res://Player/Player.tscn" id="1_floj7"]
 
 [sub_resource type="Environment" id="Environment_eekwo"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xac4q"]
+albedo_color = Color(0, 0, 0, 1)
 
 [node name="Main" type="Node3D"]
 
@@ -8,7 +13,19 @@
 
 [node name="CSGBox3D" type="CSGBox3D" parent="World"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.257568, 0)
+use_collision = true
 size = Vector3(100, 0.5, 100)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="World"]
 environment = SubResource("Environment_eekwo")
+
+[node name="Player" parent="World" instance=ExtResource("1_floj7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="World"]
+transform = Transform3D(1, 0, 0, 0, 0.819632, 0.57289, 0, -0.57289, 0.819632, 0, 14.5607, 0)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="World"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.08422, 1.6336, -8.23798)
+size = Vector3(1, 1.47412, 1)
+material = SubResource("StandardMaterial3D_xac4q")
