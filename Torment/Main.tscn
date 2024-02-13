@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://kthnih08uccu"]
+
+[sub_resource type="Environment" id="Environment_eekwo"]
+
+[node name="Main" type="Node3D"]
+
+[node name="World" type="Node3D" parent="."]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="World"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.257568, 0)
+size = Vector3(100, 0.5, 100)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="World"]
+environment = SubResource("Environment_eekwo")
