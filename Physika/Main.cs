@@ -83,15 +83,13 @@ public partial class Main : Node2D
 				PixelList[x,y] = pixel;
 			}
 		}
-		
-		for(var y = Height - 1; y >= 0; y--)
+
+		foreach (var pixel in (Pixel[,])PixelList.Clone())
 		{
-			for (var x = 0; x < Width; x++)
-			{
-				if(processPixel(x,y))
-					QueueRedraw();
-			}
+			if(pixel is not null)
+				processPixel(pixel.X, pixel.Y);
 		}
+		QueueRedraw();
 	}
 
 	private bool processPixel(int x, int y)
